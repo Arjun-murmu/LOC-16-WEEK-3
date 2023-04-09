@@ -1,0 +1,10 @@
+Q.What is the size of a C structure ? How the size of a C structure is calculated ?
+
+Answer : the size of struture can be calculate using the opertater : 'sizeof' in c programming.
+for example :
+             stuct person{
+                 char name[15];  //size of structure c
+			int age;
+			float height;
+			size_t size = sizeof(stuct person); //calculate the size
+			}
